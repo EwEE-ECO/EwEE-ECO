@@ -10,20 +10,6 @@
 
 <br />
 
-## <img src="https://raw.githubusercontent.com/EwEE-ECO/EwEE-ECO/main/assets/dot.svg" width="10" /> whoami
-
-```ts
-const ewee = {
-  role:     "Fullstack Developer",
-  stack:    ["Python", "TypeScript", "React", "TailwindCSS"],
-  building: ["Discord bots", "web apps", "APIs"],
-  learning: ["system design", "performance"],
-  motto:    "ship small, ship often",
-} as const;
-```
-
-<br />
-
 ## <img src="https://raw.githubusercontent.com/EwEE-ECO/EwEE-ECO/main/assets/dot.svg" width="10" /> stack
 
 <div align="center">
@@ -56,21 +42,6 @@ const ewee = {
 </div>
 
 <br />
-
-## <img src="https://raw.githubusercontent.com/EwEE-ECO/EwEE-ECO/main/assets/dot.svg" width="10" /> stats
-
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=EwEE-ECO&show_icons=true&hide_border=true&bg_color=0A0A0A&title_color=FFFFFF&icon_color=FFFFFF&text_color=8A8A8A&ring_color=FFFFFF&include_all_commits=true&rank_icon=github" alt="stats" />
-  <img height="165" src="https://streak-stats.demolab.com?user=EwEE-ECO&hide_border=true&background=0A0A0A&stroke=262626&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=8A8A8A&sideLabels=8A8A8A&dates=555555" alt="streak" />
-</div>
-
-<div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=EwEE-ECO&bg_color=0A0A0A&color=FFFFFF&line=FFFFFF&point=FFFFFF&area=true&area_color=FFFFFF&title_color=FFFFFF&hide_border=true&custom_title=contribution%20activity" alt="activity graph" />
-</div>
-
-<br />
-
-## <img src="https://raw.githubusercontent.com/EwEE-ECO/EwEE-ECO/main/assets/dot.svg" width="10" /> contribution snake
 
 <div align="center">
   <picture>
