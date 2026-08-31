@@ -1,0 +1,32 @@
+name: generate contribution snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: generate svg files
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=%230A0A0A&color_dots=%23F0F0F0,%23C8C8C8,%23909090,%23505050,%230A0A0A
+            dist/snake-dark.svg?color_snake=%23FFFFFF&color_dots=%23151515,%233A3A3A,%236A6A6A,%23A5A5A5,%23FFFFFF
+
+      - name: push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
