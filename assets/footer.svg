@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 880 120" width="880" height="120" role="img" aria-label="Thanks for stopping by">
+  <style>
+    svg{--fg:#FFFFFF;--muted:#8A8A8A}
+    @media (prefers-color-scheme: light){ svg{--fg:#0A0A0A;--muted:#666666} }
+    .muted{fill:var(--muted)}
+    text{font-family:ui-monospace,"JetBrains Mono","SFMono-Regular",Menlo,Consolas,monospace}
+  </style>
+  <defs>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="var(--fg)" stop-opacity="0.25"/>
+      <stop offset="0.5" stop-color="var(--fg)" stop-opacity="1"/>
+      <stop offset="1"   stop-color="var(--fg)" stop-opacity="0.25"/>
+    </linearGradient>
+    <clipPath id="cut"><rect x="0" y="0" width="880" height="120"/></clipPath>
+    <path id="wA" d="M-440 68 q110 -26 220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 V130 H-440 Z"/>
+    <path id="wB" d="M-440 84 q110 -20 220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 V130 H-440 Z"/>
+    <path id="wC" d="M-440 98 q110 -14 220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 t220 0 V130 H-440 Z"/>
+  </defs>
+
+  <g clip-path="url(#cut)" fill="url(#w1)">
+    <use href="#wA" xlink:href="#wA" opacity="0.12">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-440 0" dur="11s" repeatCount="indefinite"/>
+    </use>
+    <use href="#wB" xlink:href="#wB" opacity="0.22">
+      <animateTransform attributeName="transform" type="translate" values="-440 0;0 0" dur="8s" repeatCount="indefinite"/>
+    </use>
+    <use href="#wC" xlink:href="#wC" opacity="0.42">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-440 0" dur="6s" repeatCount="indefinite"/>
+    </use>
+
+    <text class="muted" x="440" y="40" font-size="14" text-anchor="middle" letter-spacing="3">
+      THANKS FOR STOPPING BY
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+</svg>
